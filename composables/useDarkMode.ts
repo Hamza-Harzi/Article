@@ -1,6 +1,6 @@
  const useDarkMode = () => {
 
-    const isDarkMode = useState('darkMode', () => true)
+    const isDarkMode = useState('darkMode', () => false)
 
     return {
         isDarkMode,
